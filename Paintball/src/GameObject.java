@@ -10,7 +10,8 @@ public abstract class GameObject {
 	protected int health; 	
 
 	abstract void draw(Graphics g); 
-	abstract void update(); //updating position
+	abstract void update(final Paintball paintball, final int id); //updating position
+	abstract Image getImage(String img); 
 	
 	public int getHeight() {
 		return height;
