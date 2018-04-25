@@ -46,7 +46,7 @@ public class Paintball extends JFrame implements KeyListener {
 		paintComponent(graphics);
 		
 		//draws everything in paintComponent()
-		g.drawImage(image, 0, 0, this); 
+		g.drawImage(image, 0, 0, null); 
 		repaint(); 
 
 	}
